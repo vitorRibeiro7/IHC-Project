@@ -13,13 +13,14 @@ a {
 }
 
 body {
-    background: url(https://img.freepik.com/free-vector/abstract-background-with-squares_23-2148995948.jpg?w=2000) no-repeat center center fixed;
+    background: url(../assets/img/background.png) no-repeat center center fixed;
+    /* background-color: #e0d1ff; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
-    color: var(--black);
+    color: var(--white);
 }
 
 :root {
@@ -99,11 +100,16 @@ header {
     padding: 3vw;
     background-color: #f7f7f7;
     height: auto;
+
+
 }
 
 .video p {
     font-size: 2rem;
+    font-weight: 700;
     margin-bottom: 2rem;
+
+    color: var(--black);
 }
 
 .videoframe {
@@ -129,7 +135,7 @@ header {
 }
 
 .figmalogo {
-    width: 150%;
+    width: 50%;
 }
 
 .figma-description {
@@ -158,7 +164,9 @@ header {
 
 .link-figma {
     cursor: pointer;
-    width: auto;
+
+    display: flex;
+    justify-content: center;
 }
 
 .artefacts {
@@ -169,11 +177,18 @@ header {
     justify-content: center;
     align-items: center;
     gap: 20px;
+
+    margin: auto;
+    border-radius: 5px;
+
+    width: 50%;
 }
 
 .artefacts p {
     font-size: 32px;
     font-weight: 700;
+
+    color: var(--black);
 }
 
 /* .artefacts button {
@@ -197,7 +212,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 40px;
+    padding: 60px 30px;
 }
 
 .teamWrapper {
@@ -210,7 +225,7 @@ header {
 }
 
 .team-title {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -223,28 +238,26 @@ header {
 }
 
 .team-user-img {
-    width: 100%;
+    width: 85%;
     border-radius: 100%;
 }
 
 .team-user-name {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 }
-
-
 
 footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    background-color: var(--roxo);
+    padding: 40px;
+    background-color: var(--white);
     text-align: center;
-    color: var(--white);
-    z-index: 10;
-    margin-top: -10px;
+    color: var(--black);
+
+    font-weight: 500;
 }
 
 @media (max-width: 480px) {
@@ -308,10 +321,20 @@ footer {
         justify-content: start;
         height: auto;
         width: 95%;
+
+        cursor: pointer;
+    }
+
+    .link-figma {
+        cursor: pointer;
+
+        justify-content: flex-start;
     }
 
     .figmalogo {
-        width: 150%;
+        width: 50%;
+
+        cursor: pointer;
     }
 
     .figma-description {
@@ -339,20 +362,20 @@ footer {
         width: 30vw;
     }
 
-    .link-figma {
-        cursor: pointer;
-        width: auto;
-    }
 
     .artefacts {
-        height: auto;
-        padding: 20vw 10vw;
         background-color: #f7f7f7;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
+
+        height: auto;
+        padding: 10vw 20vw;
+
+        margin: auto;
+        border-radius: 5px;
     }
 
     .artefacts p {
@@ -384,6 +407,8 @@ footer {
     font-weight: 600;
     border-radius: 4px;
     z-index: 1;
+
+    cursor: pointer;
 }
 
 .download-button .docs {
