@@ -237,3 +237,132 @@ footer {
     background-color: var(--roxo);
     text-align: center;
 }
+
+@media (max-width: 480px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: start;
+        text-align: center;
+        background-color: #f7f7f7;
+        padding: 0px 0px 15px 0px;
+    }
+
+    .navbar-list {
+        list-style: none;
+        display: flex;
+        gap: 5px;
+        color: var(--roxo);
+        font-weight: 500;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .troll {
+        background-color: var(--roxo);
+        height: 10px;
+        width: 1px;
+    }
+
+    .navbar-itemlist {
+        width: auto;
+
+        cursor: pointer;
+    }
+
+    .video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10vw 0vw;
+        background-color: #f7f7f7;
+        height: auto;
+    }
+
+    .figma {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10%;
+        padding: 10vw 0vw;
+    }
+
+    .figma-logo {
+        display: flex;
+        justify-content: start;
+        height: auto;
+        width: 95%;
+    }
+
+    .figmalogo {
+        width: 150%;
+    }
+
+    .figma-description {
+        width: 95%;
+    }
+
+    .figma-description-title {
+        font-size: 32px;
+    }
+
+    .figma-description-footerp {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .figma-description-paragraph {
+        font-size: 20px;
+    }
+
+    .figma-arrow {
+        display: none;
+    }
+
+    .arrow {
+        width: 30vw;
+    }
+
+    .link-figma {
+        cursor: pointer;
+        width: auto;
+    }
+
+    .artefacts {
+        height: auto;
+        padding: 20vw 10vw;
+        background-color: #f7f7f7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .artefacts p {
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .artefacts button {
+        border: none;
+        outline: none;
+        background: var(--roxo);
+        width: 92%;
+        height: 80px;
+        border-radius: 5px;
+        font-size: 24px;
+        color: #f7f7f7;
+        font-weight: 700;
+
+        cursor: pointer;
+    }
+}
