@@ -47,6 +47,7 @@ header {
     gap: 40px;
     color: var(--roxo);
     font-weight: 500;
+    flex-wrap: wrap;
 }
 
 .navbar-itemlist {
