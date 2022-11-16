@@ -6,11 +6,15 @@
     font-family: Poppins;
     text-decoration: none;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 html {
     min-height: 100%;
     min-width: 100%;
+
+    max-height: 100%;
+    max-width: 100%;
 }
 
 a {
@@ -45,6 +49,8 @@ header {
     flex-wrap: wrap;
     align-items: center;
     background-color: #f7f7f7;
+
+    width: 100%;
 }
 
 .sagas-logo {
@@ -202,6 +208,8 @@ header {
 .artefacts p {
     font-size: 32px;
     font-weight: 700;
+
+    text-align: center;
 
     color: var(--black);
 }
@@ -433,12 +441,14 @@ footer {
         gap: 20px;
 
         height: auto;
-        padding: 10vw 20vw;
+
+        padding: 80px;
+
 
         margin: auto;
         border-radius: 5px;
 
-        width: 50%;
+        width: 85%;
     }
 
     .artefacts p {
