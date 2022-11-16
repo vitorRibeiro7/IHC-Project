@@ -44,7 +44,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0px 16vw;
+    padding: 20px 16vw;
     align-items: center;
     flex-wrap: wrap;
     align-items: center;
@@ -54,7 +54,7 @@ header {
 }
 
 .sagas-logo {
-    width: 100px;
+    width: 140px;
 }
 
 .navbar-list {
@@ -79,7 +79,7 @@ header {
     gap: 5vw;
     align-items: center;
     height: auto;
-    padding: 10vw 1vw;
+    padding: 5vw 1vw;
     justify-content: center;
     flex-wrap: wrap;
 
