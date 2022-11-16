@@ -8,8 +8,13 @@
     scroll-behavior: smooth;
 }
 
+html {
+    min-height: 100%;
+    min-width: 100%;
+}
+
 a {
-    all: unset;
+    color: var(--roxo);
 }
 
 body {
@@ -67,13 +72,13 @@ header {
     gap: 5vw;
     align-items: center;
     height: auto;
-    padding: 4vw;
+    padding: 10vw 1vw;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .mockup-class {
-    width: 600px;
+    width: 500px;
 }
 
 .mockup {
@@ -181,7 +186,7 @@ header {
     margin: 60px auto;
     border-radius: 5px;
 
-    width: 50%;
+    width: 60%;
 }
 
 .artefacts p {
@@ -212,7 +217,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    padding: 70px 30px;
+    padding: 40px 30px;
 }
 
 .team-title {
@@ -272,6 +277,7 @@ footer {
     margin-top: -10px;
 
     font-weight: 500;
+    font-size: 16px;
 }
 
 @media (max-width: 480px) {
@@ -296,6 +302,22 @@ footer {
         flex-direction: row;
         font-size: 12px;
         align-items: center;
+    }
+
+    .mockup-class {
+        width: 350px;
+    }
+
+    .mockup {
+        width: 100%;
+    }
+
+    .about-decription h1 {
+        font-size: 2.6rem;
+    }
+
+    .about-decription p {
+        font-size: 1.15rem;
     }
 
     .troll {
@@ -390,6 +412,8 @@ footer {
 
         margin: auto;
         border-radius: 5px;
+
+        width: 50%;
     }
 
     .artefacts p {
@@ -411,6 +435,60 @@ footer {
 
         cursor: pointer;
     } */
+
+    .team {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 40px 30px;
+    }
+
+    .team-title {
+        font-size: px;
+        font-weight: 700;
+    }
+
+    .teamWrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .team-user {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user-img-wrapper {
+        width: 150px;
+        height: 150px;
+
+        clip-path: circle(50% at 50% 50%);
+
+        margin-bottom: 10px;
+    }
+
+    .team-user-img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+
+    .team-user-name {
+        font-size: 18px;
+        font-weight: 400;
+    }
 }
 
 .download-button {
@@ -440,7 +518,7 @@ footer {
 }
 
 .download-button:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .download {
