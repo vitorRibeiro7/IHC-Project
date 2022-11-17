@@ -138,6 +138,13 @@ header {
     height: 40.5vw;
 }
 
+.divframe {
+    width: 72.1vw;
+    height: 40.5vw;
+
+    background-color: var(--black);
+}
+
 .figma {
     display: flex;
     flex-direction: row;
